@@ -31,5 +31,12 @@ Python 3.x
 Requests
 Paramiko
 
-Why Penetration Testing Toolkit?
-Penetration testing is a vital process for assessing the security of a system or network. This toolkit allows security professionals to automate repetitive tasks like port scanning and brute-forcing, increasing efficiency and helping identify security vulnerabilities that need to be addressed. With its modular design, the toolkit is scalable and customizable for various testing scenarios.
+Usage:
+
+Run the desired module from the command line:
+
+To run port scanner:
+python port_scanner.py 192.168.1.1
+
+To run the brute-force module:
+python brute_forcer.py --target http://example.com/login --wordlist passwords.txt
